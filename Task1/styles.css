@@ -1,0 +1,89 @@
+body {
+  background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4Mi1rcHhrOW5nay5qcGc.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+  margin-top: 170px;
+  text-align: center;
+}
+
+.container {
+  box-shadow: 20px 20px 53px grey;
+  border-radius: 5px;
+  background-color: #080808;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.heading {
+  text-decoration-line: underline;
+  animation: color-animation 4s linear infinite;
+  margin-top: 0;
+  padding: 15px;
+  background-color: rgb(188, 203, 200);
+  font-size: 40px;
+  position: relative;
+  --color-1: #050403;
+  --color-2: #1742a0;
+  --color-3: #d98c10;
+ 
+}
+
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1)
+  }
+
+  33% {
+    color: var(--color-2)
+  }
+
+  66% {
+    color: var(--color-3)
+  }
+}
+
+table {
+  margin: auto;
+
+}
+
+input {
+  border-radius: 5px;
+  width: 300px;
+  height: 55px;
+  font-size: 28px;
+  margin-bottom: 6px;
+  border: 0;
+  text-align: end;
+}
+
+button {
+  width: 73px;
+  height: 40px;
+  margin: 0;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(197, 222, 247);
+}
+
+.num:hover {
+  background-color: rgb(218, 249, 170);
+}
+
+.clear:hover {
+  background-color: rgb(246, 209, 223);
+}
