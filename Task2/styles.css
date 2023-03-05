@@ -1,0 +1,158 @@
+ body {
+   background-color: #01082d;
+   margin: 8%;
+   text-align: justify;
+
+ }
+
+ .container {
+   position: relative;
+   width: 250px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .image {
+   display: block;
+   width: 250px;
+   height: 350px;
+   margin-left: auto;
+   margin-right: auto;
+   filter: drop-shadow(-20px -20px 15px rgb(242, 180, 190));
+ }
+
+ .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: #0d0f00;
+ }
+
+ .container:hover .overlay {
+   opacity: 1;
+ }
+
+ .text {
+   text-align: start;
+   color: rgb(230, 193, 193);
+   font-size: 20px;
+   font-family: 'Merriweather', serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+ }
+
+ #title {
+   text-align: left;
+   font-size: 10vh;
+   color: whitesmoke;
+   background-image: linear-gradient(
+     -225deg,
+     #f7f6f8 0%,
+     #74d618 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+
+ .about-tata {
+   font-family: 'Times New Roman', Times, serif;
+   word-spacing: 3px;
+   font-size: 28px;
+   color: white;
+ }
+
+ div#data {
+   background-color: rgba(3, 29, 65, 0.963);
+   box-shadow: 10px 10px 20px #96c996;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 25px 25px;
+   margin: 11px;
+   margin-top: 50px;
+ }
+
+
+ .heading {
+   font-size: 35px;
+   color: rgb(241, 241, 186);
+   text-align: left;
+   text-shadow: 5px 6px 10px black;
+ }
+
+ .information {
+   font-family: 'Times New Roman', Times, serif;
+   word-spacing: 3px;
+   font-size: 22px;
+   color: white;
+ }
+
+ .information2 {
+   padding-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   word-spacing: 3px;
+   font-size: 22px;
+   color: white;
+ }
+
+ .philanthropist {
+   font-family: 'Times New Roman', Times, serif;
+   word-spacing: 3px;
+   color: rgb(252, 245, 206);
+ }
+
+ .philanthropist:hover {
+   color: aqua;
+ }
+
+ .social-work {
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   padding: 25px 25px;
+   margin: 11px;
+   margin-top: 50px;
+   font-size: 25px;
+   text-align: justify;
+ }
+
+ .image2 {
+   display: block;
+   width: 600px;
+   height: 350px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .link {
+   font-size: 35px;
+   color: rgb(249, 195, 206);
+   text-align: left;
+   text-shadow: 5px 6px 10px black;
+   text-decoration: none;
+ }
+
+ .link:hover {
+   color: aqua;
+ }
