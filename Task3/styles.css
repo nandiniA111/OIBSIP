@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    margin-top: 150px;
+    background-image: url(https://img.freepik.com/free-vector/geometric-graphic-background_1406-120.jpg?w=740&t=st=1677939737~exp=1677940337~hmac=a4e0a6b1a2a260c00d699043f7d6d87b5ec9c9e895380b9e54277665bcf2a60e);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1{
+    text-align: left;
+    height: 430px;
+    width: 430px;
+    position: absolute;
+    left: 35px;
+    top: 5px;
+}
+
+
+h1{
+    font-size: 54px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h2{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 28px;
+}
+
+#myInput{
+    width : 400px;
+    height: 37px;
+    padding :10px;
+    font-size: 20px;
+    background-color: #4acbef;
+    border: 0;
+    border-radius: 3px;   
+    color:rgb(12, 0, 0);
+    box-shadow: 20px 20px 50px grey;
+}
+
+::placeholder { 
+    color: rgb(227, 218, 218);
+    opacity: 1; 
+  }
+   
+.addBtn{
+    padding: 10px;
+    width : 70px;
+    height: 33px;
+    text-align: center;
+    font-size: 21px;
+    cursor: pointer;
+    background-color: rgb(229, 163, 39);
+    font-weight: bold;
+    color: #060000;
+    border-radius: 4px;
+  }
+.addBtn:hover{
+    background-color: #fdcab2;
+}
+.tasks{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+ul li {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px ;
+    background: #fc8fc0;
+    
+    font-size: 22px;
+    transition: 0.2s;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 6px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:hover {
+    background: #e1dfdf;
+}
+
+ul li.checked {
+    background-color:rgb(176, 201, 253) ;
+    color: #fff;
+    text-decoration: none;
+} 
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(49, 15, 64);
+    color: White;
+    padding: 12px 16px 12px 16px;
+  }
+  
+.close:hover {
+    background-color: #a12219;
+    color: rgb(254, 249, 249);
+  }
